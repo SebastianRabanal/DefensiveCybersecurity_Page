@@ -407,3 +407,16 @@ button {
     color: var(--gris);
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    
+    .dos-columnas {
+        flex-direction: column;
+    }
+
+    
+    .grid-tres-columnas .tarjeta,
+    .grid-cuatro-columnas .tarjeta {
+        flex: 1 1 100%;
+    }
+}
