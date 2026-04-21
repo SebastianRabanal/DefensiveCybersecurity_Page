@@ -27,6 +27,14 @@ body {
   line-height: 1.7;
 }
 
+.img-fluida{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid var(--borde);
+}
+
 /* === TIPOGRAFÍA Y ELEMENTOS BASE === */
 h2 {
     color: var(--blanco);
@@ -171,7 +179,7 @@ h3 {
     border-radius: 4px;
 }
 
-.tarjeta.centrado {
+.tarjeta-centrado {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -180,7 +188,7 @@ h3 {
     height: 100%;
 }
 
-.tarjeta .icon {
+.tarjeta{
     font-size: 28px;
     margin-bottom: 15px;
 }
