@@ -1,0 +1,99 @@
+:root {
+  --negro: #020b18;
+  --negro2: #071428;
+  --azul: #1a7fd4;
+  --azul-claro: #3ab4ff;
+  --cyan: #00e5ff;
+  --blanco: #e8f4fd;
+  --gris: #7a9bb5;
+  --borde: #0d3a6e;
+  --rojo: #ff4d4d;
+  --verde: #00e676;
+  --amarillo: #ffc107;
+  --fuente-mono: 'Share Tech Mono', monospace;
+  --fuente-main: 'Exo 2', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--negro);
+  color: var(--blanco);
+  font-family: var(--fuente-main);
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.badge{
+    font-family: var(--fuente-mono);
+    font-size: 15px;
+    display: inline-block;
+    color: var(--cyan);
+    padding: 10px 10px;
+    border: 1px solid var(--cyan);
+}
+
+#header{
+    text-align: center;
+    padding: 70px 20px 50px;
+    border-bottom: 1px solid var(--borde);
+}
+
+#header h1{
+    font-size: 46px;
+    font-weight: 800;
+    color: var(--blanco);
+}
+
+#header h1 span{
+    color: var(--cyan);
+    text-shadow: 0 0 10px var(--azul);
+}
+
+#header p{
+    color: var(--gris);
+    font-size: 17px;
+    margin-top: 14px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    padding: 14px 20px;
+    background-color: var(--negro2);
+    border-bottom: 1px solid var(--borde);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#navbar a{
+    font-family: var(--fuente-mono);
+    font-size: 20px;
+    color: var(--gris);
+    padding: 7px 14px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+#navbar a:hover {
+  color: var(--cyan);
+  border-color: var(--borde);
+}
+
+.etiqueta{
+    font-family: var(--fuente-mono);
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 5px;
+    display: inline-block;
+    color: var(--cyan);
+    padding: 10px 10px;
+}
+
