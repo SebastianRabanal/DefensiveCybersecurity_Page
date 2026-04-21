@@ -337,6 +337,52 @@ button {
     border-color: var(--borde);
 }
 
+.modulo-complementario {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 40px;
+
+}
+
+.modulo-complementario h2 {
+    font-size: 36px;
+    line-height: 1.3;
+    margin: 20px 0;
+}
+
+.descripcion-modulo {
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.flujo-modulo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.flujo-modulo .flecha {
+    color: var(--cyan);
+    font-size: 20px;
+}
+
+.btn-modulo {
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px 40px;
+    font-size: 16px;
+    background-color: var(--azul);
+    margin-bottom: 30px;
+}
+
+.creditos-modulo {
+    color: var(--gris);
+    font-family: var(--fuente-mono);
+    font-size: 13px;
+    opacity: 0.7;
+}
+
 /* === FOOTER === */
 #footer {
     text-align: center;
